@@ -1,0 +1,64 @@
+ntp:
+  version: 4.2.8.p12-2
+  issues:
+    - embeddeddate
+openmpi:
+  version: 3.1.3-1
+  issues:
+    - hostname
+uim:
+  version: 1.8.8.-3
+  issues:
+    - sorting
+wavemon:
+  version: 0.8.2-1
+  issues:
+    - embeddeddate
+viking:
+  version: 1.6.2-6
+  issues:
+    - embeddeddate
+tcptrace:
+  version: 6.6.7-5
+  issues:
+    - embeddeddate
+tuxpaint-config:
+  version: 0.0.13-4
+  issues:
+    - embeddeddate
+shards:
+  version: 0.8.1-1
+  issues:
+    - embeddeddate
+ndisc:
+  version: 1.0.3-3
+  issues:
+    - hostname
+ap2s:
+  version: 4.14-8
+  issues:
+    - embeddeddate
+nspr:
+  version: 4.20-1
+  issues:
+    - embeddeddate
+muine:
+  version: 0.8.11-6
+  issues:
+    - embeddeddate
+openmotif:
+  version: 2.3.8-1
+  issues:
+    - embeddeddate
+plowshare:
+  version: 2.1.7-3
+  issues:
+    - embeddeddate
+yaws:
+  version: 2.0.6-1
+  issues:
+    - buildsystem
+lirc:
+  version: 1:0.10.1-2
+  issues:
+    - embeddeddate

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Arch Repro Issues</title>
+    <style>
+      table {
+        border: 0;
+        margin-bottom: 1.5em;
+        padding: 0.65em;
+        font-size: 1.00em;
+        border-collapse: collapse;
+      }
+
+      table tr td,
+      table th {
+        padding: 0.35em 0.90em;
+        text-align: left;
+        white-space: nowrap;
+      }
+
+      table th {
+        background: rgb(217, 230, 236) none repeat scroll 0 0;
+        border-bottom: 1px solid #bcd;
+      }
+
+      table.styled-table {
+        background: #ecf2f5 none repeat scroll 0 0;
+        border: 1px solid #bcd;
+      }
+
+      table.styled-table tr td {
+        border-top: 1px dotted #bcd;
+      }
+
+  </style>
+</head>
+<body>
+
+<table class="styled-table full size">
+  <thead>
+    <tr>
+      <th>Package</th>
+      <th>Version</th>
+      <th>Issues</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for key, value in pkgs.items() %}
+      <tr>
+        <td>{{ key }}</td>
+        <td>{{ value['version'] }}</td>
+        <td>{{ ','.join(value['issues']) }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</body>
+</html>
