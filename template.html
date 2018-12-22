@@ -42,6 +42,7 @@
       <th>Package</th>
       <th>Version</th>
       <th>Issues</th>
+      <th>Bug link</th>
     </tr>
   </thead>
   <tbody>
@@ -50,6 +51,7 @@
         <td>{{ key }}</td>
         <td>{{ value['version'] }}</td>
         <td>{{ ','.join(value['issues']) }}</td>
+        <td>{{ value['bug'] }}</td>
       </tr>
     {% endfor %}
   </tbody>
