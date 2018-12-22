@@ -63,3 +63,7 @@ lirc:
   version: 1:0.10.1-2
   issues:
     - embeddeddate
+apr:
+  version: 1.6.5-1
+  issues:
+    - hostname
