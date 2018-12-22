@@ -67,3 +67,7 @@ apr:
   version: 1.6.5-1
   issues:
     - hostname
+gnome-tweaks:
+  version: 3.30.2-1
+  issues:
+    - pycdict
