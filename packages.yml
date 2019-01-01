@@ -1,3 +1,13 @@
+libtool:
+  version: any
+  issues:
+    - hostname
+  bug: https://sources.debian.org/src/libtool/2.4.6-6/debian/patches/no_hostname.patch
+openldap:
+  version: any
+  issues:
+    - hostname
+  bug: https://sources.debian.org/src/openldap/2.4.47+dfsg-1/debian/patches/set-maintainer-name/
 ntp:
   version: 4.2.8.p12-2
   issues:
