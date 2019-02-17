@@ -75,3 +75,11 @@ seabios:
   version: 1.12.0-1
   issues:
     - hostname
+keyutils:
+  version: 1.6-1
+  issues:
+    - embeddeddate
+s-nail:
+  version: 14.9.11-3
+  issues:
+    - embeddedmakeflag
